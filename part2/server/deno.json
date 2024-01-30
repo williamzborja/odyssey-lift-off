@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "graphql": "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/mod.ts",
+    "@graphql-codegen/cli": "npm:@graphql-codegen/cli",
+    "@graphql-codegen/core": "npm:@graphql-codegen/core",
+    "@graphql-codegen/typescript": "npm:@graphql-codegen/typescript",
+    "@graphql-codegen/typescript-resolvers": "npm:@graphql-codegen/typescript-resolvers"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch src/main.ts",
+    "generate": "deno run --allow-read --allow-write --allow-sys --allow-env codegen.ts"
+  },
+  "fmt": {
+    "exclude": ["./src/__generated__/**/*"]
+  }
+
+}
