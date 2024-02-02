@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "graphql": "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/mod.ts"
+  },
+  "tasks": {
+    "dev": "deno run --watch -A ./src/main.ts",
+    "generate": "deno run -A ./codegen.ts"
+  },
+  "lint": {
+    "exclude": ["./src/types.ts"]
+  }
+}
