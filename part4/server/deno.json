@@ -1,6 +1,8 @@
 {
   "imports": {
-    "graphql": "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/mod.ts"
+    "graphql": "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/mod.ts",
+    "@graphql-codegen/typescript": "npm:@graphql-codegen/typescript",
+    "@graphql-codegen/typescript-resolvers": "npm:@graphql-codegen/typescript-resolvers"
   },
   "tasks": {
     "dev": "deno run --watch -A ./src/main.ts",

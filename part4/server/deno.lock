@@ -3576,5 +3576,11 @@
     "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/lib/validation/validate.js": "44bf2bc96845af0bf77e4421f0a05ee57cdc2a688abb32ff6270eacc501327d1",
     "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/lib/version.js": "a135d0beee3fa1405733453e86f1c887e4771d56357504dd78eaa872c0a2b482",
     "https://raw.githubusercontent.com/adelsz/graphql-deno/v15.0.0/mod.ts": "c85d6ab2a9c22ff494bfaa5f662507249650419af6c6c27a7a5c8175de61870d"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@graphql-codegen/typescript",
+      "npm:@graphql-codegen/typescript-resolvers"
+    ]
   }
 }
